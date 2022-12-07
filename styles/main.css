@@ -1,0 +1,88 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: bisque;
+}
+
+.show {
+  background-color: skyblue;
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.show .box {
+  width: 400px;
+  height: 400px;
+  background-color: burlywood;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+.show .box h1 {
+  color: green;
+}
+.show .box form {
+  position: relative;
+}
+.show .box form .kirgizish {
+  width: 350px;
+  height: 50px;
+  margin-top: 10px;
+  border: none;
+  border-bottom: 1px solid #0052fe;
+  font-size: 2rem;
+  padding: 5px 0 5px 10px;
+  color: #0052fe;
+}
+.show .box form .money {
+  width: 350px;
+  height: 60px;
+  font-size: 30px;
+  padding: 10px;
+  margin-top: 20px;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+.show .box form .aylanishi {
+  width: 350px;
+  height: 60px;
+  font-size: 30px;
+  padding: 10px;
+  margin-top: 20px;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+.show .box form .aylanishi .aylanishi-usd {
+  display: block;
+}
+.show .box form button {
+  width: 300px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-left: 20px;
+  background-color: skyblue;
+  border: none;
+  color: blueviolet;
+  border-radius: 10px;
+  font-size: 40px;
+}
+
+.show .box h2 {
+  color: green;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 60px;
+}
